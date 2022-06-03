@@ -2,17 +2,22 @@
 #include <time.h>
 #include <stdio.h>
 
+/*more headers goes there */
+
+/* betty style doc for function main goes there */
 /**
- * main - Determine a random number for n
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	int n, s;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	/* your code goes there */
 	s = n % 10;
 	if (s > 5)
 	{
