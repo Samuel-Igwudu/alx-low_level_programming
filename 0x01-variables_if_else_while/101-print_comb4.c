@@ -9,37 +9,28 @@ int main(void)
 {
 	int x, y, z;
 
-	x = 48;
-	y = 48;
-	z = 48;
-	
-	while (y < 58)
+	x = 0;
+	while (x <=9)
 	{
-		x = 48;
-
-		while (x < 58)
+		y = x + 1;
+		while (y <= 9)
 		{
-			z = 48;
-
-			while (z < 58)
+			z = y + 1;
+			while (z <= 9)
 			{
-				if (y != x && y != z && x != z &&  y < x && y < z)
+				putchar(x + '0');
+				putchar(y + '0');
+				putchar(z + '0');
+				if (((x * 100) + (y * 10) + z) != 789)
 				{
-					putchar(y);
-					putchar(x);
-					putchar(z);
-					if (x == 56 && y == 55 && z == 57)
-					{
-						break;
-					}
 					putchar(',');
 					putchar(' ');
 				}
-				z = z + 1;
+				z++;
 			}
-			x = x + 1;
+			y++;
 		}
-		y = y + 1;
+		x++;
 	}
 	putchar('\n');
 	return (0);
