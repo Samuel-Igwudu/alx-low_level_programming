@@ -10,7 +10,7 @@ int main(void)
 	int x, y, z;
 
 	x = 0;
-	while (x <=9)
+	while (x <= 9)
 	{
 		y = x + 1;
 		while (y <= 9)
