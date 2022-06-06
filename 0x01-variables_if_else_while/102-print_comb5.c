@@ -24,8 +24,8 @@ int main(void)
 					putchar((z) + '0');
 					if (w == 9 && x == 8 && y == 9 && z == 9)
 						break;
-						putchar(',');
-						putchar(' ');
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
