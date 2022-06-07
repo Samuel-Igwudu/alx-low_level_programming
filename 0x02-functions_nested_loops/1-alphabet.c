@@ -5,15 +5,13 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-	char alp[27] = ("abcdefghijklmnopqrstuvwxyz");
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 97; i < 122; i++)
 	{
-		_putchar(alp[i]);
+		_putchar(i);
 	}
 	_putchar('\n');
-	return (0);
 }
