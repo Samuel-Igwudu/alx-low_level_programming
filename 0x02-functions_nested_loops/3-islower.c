@@ -3,6 +3,8 @@
 /**
  * _islower - check for lowercase
  *
+ * @c: ASCII code
+ *
  * Return: Always 1 (Success)
  */
 int _islower(int c)
