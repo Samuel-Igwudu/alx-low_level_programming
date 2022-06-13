@@ -18,6 +18,6 @@ void puts2(char *str)
 		}
 		if (asdf % 2 == 0)
 			_putchar(str[asdf]);
-		asdf++
+		asdf++;
 	}
 }
