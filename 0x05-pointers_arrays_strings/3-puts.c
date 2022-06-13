@@ -7,16 +7,16 @@
  */
 void _puts(char *str)
 {
-	int l0en = 0;
+	int count = 0;
 
-	while (l0en = 0)
+	while (count >= 0)
 	{
-		if (str[l0en] == '\0')
+		if (str[count] == '\0')
 		{
 			_putchar('\n');
 			break;
 		}
-		_putchar(str[l0en]);
-		l0en++;
+		_putchar(str[count]);
+		count++;
 	}
 }
