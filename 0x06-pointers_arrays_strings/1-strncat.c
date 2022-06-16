@@ -7,7 +7,7 @@
  * @i: amount of bytes
  * Return: dest
  */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 	int count = 0, count1 = 0;
 
