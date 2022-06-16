@@ -4,7 +4,7 @@
  * _strncat - concatenates two string
  * @dest: destination
  * @src: source
- * @i: amount of bytes
+ * @n: amount of bytes
  * Return: dest
  */
 char *_strncat(char *dest, char *src, int n)
